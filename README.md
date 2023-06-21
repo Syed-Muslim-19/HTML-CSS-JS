@@ -14,3 +14,5 @@ To run the code in this repository, you will need a web browser. Simply open the
 
 Contributing
 Contributions to this repository are welcome! If you have code examples or projects that you would like to share, feel free to submit a pull request. Please ensure that your code is well-documented and follows best practices.
+
+To Check MY Sample Website Write this:  https://syed-muslim-19.github.io/HTML-CSS-JS/   then Folder Name/HTMLfile name((....).html)
