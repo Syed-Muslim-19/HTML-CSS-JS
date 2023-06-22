@@ -44,4 +44,8 @@ Please ensure that your contributions align with the purpose of this repository 
 
 The code in this repository is licensed under the [MIT License](LICENSE). You're free to use, modify, and distribute the code for both commercial and non-commercial purposes. However, please note that this repository may include third-party libraries or code snippets that have their own licenses. Make sure to review and comply with those licenses when using such code.
 
-## TO Check my Website :
+## To Check my Websites 
+1. Enter this URL on your browser : 
+        https://syed-muslim-19.github.io/HTML-CSS-JS/
+2. Then, Write the Folder Name you use to check.
+3. Lastly, write the (file.html)name.
