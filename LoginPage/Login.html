@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+      integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+      integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="Container">
+      <img src="BG.png" alt="" srcset="" class="BG" />
+      <div class="innerblock">
+        <div class="LS" style="position: absolute; z-index: 1">
+          <h1 style="font-weight: 900">Login Successful</h1>
+        </div>
+        <form action="" method="post" class="Form">
+          <h3 style="font-weight: 800; margin-bottom: 20px">Login</h3>
+          <label for="email" style="margin-bottom: 4px">Email :</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            style="
+              margin-bottom: 15px;
+              border-radius: 10px;
+              border: none;
+              height: 30px;
+              width: 250px;
+              color: blue;
+              padding-left: 10px;
+            "
+          />
+          <label for="password" style="margin-bottom: 4px">Password :</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            style="
+              border-radius: 10px;
+              border: none;
+              height: 30px;
+              width: 250px;
+              color: blue;
+              padding-left: 10px;
+            "
+          />
+          <div class="Checkbox" style="margin-top: 3px">
+            <input
+              type="checkbox"
+              name="checkbox"
+              id="checkbox"
+              onclick="View()"
+            />
+            <label for="checkbox" style="font-weight: 300">show password</label>
+          </div>
+          <a
+            href=""
+            style="margin-right: auto; margin-left: auto; margin-top: 20px"
+            class="link"
+            onclick="alert('Email : admin \nPassword : admin')"
+            >What is the Password ?</a
+          >
+          <center>
+            <input
+              type="button"
+              value="Submit"
+              style="
+                color: blue;
+                margin-top: 50px;
+                width: 120px;
+                border-radius: 10px;
+                border: none;
+                padding: 3px;
+              "
+              class="button"
+              onclick="Verify()"
+            />
+          </center>
+        </form>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
