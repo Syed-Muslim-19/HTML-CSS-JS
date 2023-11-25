@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-weight: 600;
+}
+.BG {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+}
+.innerblock {
+  position: relative;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.Form {
+  display: grid;
+  padding: 30px 40px 50px 40px;
+  margin-top: 40%;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 255, 0.196);
+}
+.Checkbox {
+  margin-left: auto;
+}
+.link {
+  color: white;
+  text-decoration: none;
+}
+.link:hover {
+  text-decoration: underline;
+  color: white;
+}
+.button:active {
+  scale: 0.9;
+  text-decoration: none;
+  transition: 0.2s;
+}
+.button:hover {
+  text-decoration: underline;
+}
+.LS {
+  top: 100%;
+  display: none;
+}
