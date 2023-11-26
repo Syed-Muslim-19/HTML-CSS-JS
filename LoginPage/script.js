@@ -23,6 +23,12 @@ function Verify() {
     for (var j = 0; j < lsElements.length; j++) {
       lsElements[j].style.display = "block";
     }
+  } else if (Email === "" && Password === "") {
+    alert("Must Fill up the Form");
+  } else if (Password === "") {
+    alert("Password is Missing");
+  } else if (Email === "") {
+    alert("Email is Missing");
   } else {
     alert("Invalid Email or Password");
   }
